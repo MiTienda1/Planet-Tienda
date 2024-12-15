@@ -177,7 +177,7 @@ footer {
 
 /* Estilo para el logo */
 .logo {
-    max-width: 770px; /* Ajusta este valor según el tamaño deseado */
+    max-width: 780px; /* Ajusta este valor según el tamaño deseado */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Asegura que se comporte como un bloque */
 }
