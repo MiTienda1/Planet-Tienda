@@ -1,0 +1,216 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0095ff;
+    color: #333;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #3b18ed;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    height: 70px;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar .menu li {
+    margin: 0;
+}
+
+.navbar .menu li a {
+    text-decoration: none;
+    padding: 0.6rem;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.navbar .cta {
+    background-color: #0004ff;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar .cta:hover {
+    background-color: #2b00ff;
+    color: white;
+}
+
+/* Sección Hero */
+.hero {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80vh;
+    background: url('hero.jpg') center/cover no-repeat;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+  
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;      
+}
+  
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-button {
+    background-color: #0400ff;
+    color: #ffffff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #FFBF00;
+    color: white;
+}
+
+/* Características */
+.features {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.feature-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.feature-item {
+    background: #fff;
+    padding: 1.5rem;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    width: 300px;
+    text-align: left;
+}
+
+.feature-item h3 {
+    font-size: 1.10rem;
+    margin-bottom: 1rem;
+}
+
+.feature-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Pie de página */
+footer {
+    text-align: left;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos exclusivos para el panel de control */
+.panel-page {
+    background-color: #ff0000;
+}
+
+.panel-page h1 {
+    color: #0011fa;
+}
+
+/* Estilos exclusivos para la página de creación de productos */
+.create-products-page {
+    background-color: #fff3e0;
+}
+
+.create-products-page h2 {
+    color: #e65100;
+}
+
+/* Estilos exclusivos para la pagina de registro */
+.form-container {
+    background-color: #ff0000;
+    
+}
+
+/* Estilos para el contenedor principal del header */
+.header {
+    display: flex;
+    align-items: flex-start; /* Alineación vertical */
+    padding: 0px;
+    gap: 0px; /* Reduce el espacio entre el logo y el formulario */
+}
+
+/* Estilo para el logo */
+.logo {
+    width: 750px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+
+/* Estilo para el formulario */
+.form-container {
+    width: 800px; /* Reduce el ancho del formulario */
+    background-color: #f5f5f5;
+    padding: 291px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+}
+
+/* Estilo para los campos del formulario */
+.form-container label,
+.form-container input {
+    margin-bottom: 82px; /* Espacio entre los campos */
+}
+
+/* Estilo para el botón */
+.cta {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta:hover {
+    background-color: #0056b3;
+}
