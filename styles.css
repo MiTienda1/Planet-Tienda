@@ -214,3 +214,60 @@ footer {
 .cta:hover {
     background-color: #0056b3;
 }
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100px; /* Reduce el tamaño del logo en pantallas pequeñas */
+    }
+}
+
+img {
+    max-width: 100%; /* Asegura que las imágenes no se desborden */
+    height: auto;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/* Media Query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem; /* Reduce el tamaño de la fuente en pantallas pequeñas */
+    }
+
+    .header {
+        flex-direction: column; /* Alinea logo y formulario en columnas en lugar de filas */
+    }
+
+    .form-container {
+        width: 100%; /* El formulario ocupa todo el ancho disponible */
+        padding: 15px;
+    }
+
+    /* Puedes agregar más ajustes para otros elementos según sea necesario */
+}
+
+/* Media Query para pantallas grandes (desktops) */
+@media (min-width: 769px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .form-container {
+        width: 400px; /* El formulario tiene un ancho fijo en pantallas grandes */
+    }
+}
+
